@@ -1,0 +1,38 @@
+{
+    "name":"formInputs",
+    "version":"0.0.1",
+    "author":"",
+    "location":"gpickin/formInputs#v0.0.1",
+    "homepage":"https://github.com/gpickin/formInputs",
+    "documentation":"https://github.com/gpickin/formInputs",
+    "repository":{
+        "type":"git",
+        "URL":"https://github.com/gpickin/formInputs"
+    },
+    "bugs":"https://github.com/gpickin/formInputs/issues",
+    "slug":"formInputs",
+    "shortDescription":"This module is where all Form Inputs are registered, for Widgets, Themes, and more.",
+    "description":"This module is where all Form Inputs are registered, for Widgets, Themes, and more.",
+    "type":"modules",
+    "dependencies":{
+        
+    },
+    "devDependencies":{
+        "coldbox":"^4.3.0+188",
+        "testbox":"^2.4.0+80"
+    },
+    "installPaths":{
+        "testbox":"testbox",
+        "coldbox":"tests/resources/app/coldbox"
+    },
+    "scripts":{
+        "postVersion":"package set location='gpickin/formInputs#v`package version`'",
+        "onRelease":"publish",
+        "postPublish":"!git push && !git push --tags"
+    },
+    "ignore":[
+        "**/.*",
+        "test",
+        "tests"
+    ]
+}
