@@ -1,8 +1,8 @@
 {
     "name":"formInputs",
-    "version":"0.0.1",
+    "version":"0.1.0",
     "author":"",
-    "location":"gpickin/formInputs#v0.0.1",
+    "location":"gpickin/formInputs#v0.1.0",
     "homepage":"https://github.com/gpickin/formInputs",
     "documentation":"https://github.com/gpickin/formInputs",
     "repository":{
@@ -14,9 +14,7 @@
     "shortDescription":"This module is where all Form Inputs are registered, for Widgets, Themes, and more.",
     "description":"This module is where all Form Inputs are registered, for Widgets, Themes, and more.",
     "type":"modules",
-    "dependencies":{
-        
-    },
+    "dependencies":{},
     "devDependencies":{
         "coldbox":"^4.3.0+188",
         "testbox":"^2.4.0+80"
